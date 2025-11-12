@@ -1,4 +1,4 @@
-# Easy tasks in Python in a single file
+# Easy tasks in Python on HackerRank in a single file
 
 # Introduction
 # 1. Say "Hello, World!" With Python
@@ -121,3 +121,34 @@ print(is_leap(year))"""
     query_name = input()
     
     print(f"{(sum(student_marks[query_name])/len(student_marks[query_name])):.2f}")"""
+
+# 12. Lists
+"""if __name__ == '__main__':
+    N = int(input())
+    l = []
+    for _ in range(N):
+        n = input().split()
+        if n[0] == 'insert':
+            l.insert(int(n[1]), int(n[2]))
+        if n[0] == 'print':
+            print(l)
+        if n[0] == 'remove':
+            l.remove(int(n[1]))
+        if n[0] == 'append':
+            l.append(int(n[1]))
+        if n[0] == 'sort':
+            l.sort()
+        if n[0] == 'pop':
+            l.pop()
+        if n[0] == 'reverse':
+            l.reverse()"""
+
+# 13. Tuples # Python 2 # Weird one
+"""if __name__ == '__main__':
+    n = int(raw_input())
+    integer_list = map(int, raw_input().split())
+    print(hash(tuple(integer_list)))"""
+
+# Strings
+
+# 14. 
