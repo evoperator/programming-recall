@@ -1,4 +1,5 @@
-# Easy algorithms on HackerRank in a single file
+# Easy algorithmic tasks on HackerRank in a single file
+# No need for such big pre-existing code for these tasks. HackerRank is weird
 
 # Warmup
 # 1. Solve Me First
@@ -47,4 +48,128 @@ if __name__ == '__main__':
     fptr.close()
 """
 
-# 3.
+# 3. Compare the Triplets
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'compareTriplets' function below.
+#
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts following parameters:
+#  1. INTEGER_ARRAY a
+#  2. INTEGER_ARRAY b
+#
+
+def compareTriplets(a, b):
+    arr = [0, 0]
+    for i in range(len(a)):
+        if a[i] > b[i]:
+            arr[0] += 1
+        if a[i] < b[i]:
+            arr[1] += 1
+        
+    return arr
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    a = list(map(int, input().rstrip().split()))
+
+    b = list(map(int, input().rstrip().split()))
+
+    result = compareTriplets(a, b)
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
+"""
+
+# 4. A Very Big Sum
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'aVeryBigSum' function below.
+#
+# The function is expected to return a LONG_INTEGER.
+# The function accepts LONG_INTEGER_ARRAY ar as parameter.
+#
+
+def aVeryBigSum(ar):
+    ar_sum = 0
+    for e in ar:
+        ar_sum += e
+        
+    return ar_sum
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    ar_count = int(input().strip())
+
+    ar = list(map(int, input().rstrip().split()))
+
+    result = aVeryBigSum(ar)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+"""
+
+# 5. Diagonal Difference
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'diagonalDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+#
+
+def diagonalDifference(arr):
+    lrd = arr[0][0]
+    for l in range(1, len(arr)):
+        lrd += arr[l][l]
+        
+    rld = arr[0][-1]
+    for r in range(len(arr)-1, 0, -1):
+        rld += arr[len(arr)-r][r-1]
+        
+    return abs(lrd - rld)
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+"""
+
+# 6. 
