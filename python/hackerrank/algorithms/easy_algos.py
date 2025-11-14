@@ -172,4 +172,69 @@ if __name__ == '__main__':
     fptr.close()
 """
 
-# 6. 
+# 6. Plus Minus
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'plusMinus' function below.
+#
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+def plusMinus(arr):
+    larr = len(arr)
+    p, n, z = 0, 0, 0
+    
+    for a in arr:
+        if a > 0:
+            p += 1
+        if a < 0:
+            n += 1
+        if a == 0:
+            z += 1
+    
+    print(f"{p/larr:.6f}")
+    print(f"{n/larr:.6f}")
+    print(f"{z/larr:.6f}")
+    
+    
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    plusMinus(arr)
+"""
+
+# 7. Staircase
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'staircase' function below.
+#
+# The function accepts INTEGER n as parameter.
+#
+
+def staircase(n):
+    stairs = [' ']*n
+    for i in range(n-1, -1, -1):
+        stairs[i] = '#'
+        print(''.join(stairs))
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    staircase(n)
+"""
