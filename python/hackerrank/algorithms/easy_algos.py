@@ -238,3 +238,116 @@ if __name__ == '__main__':
 
     staircase(n)
 """
+
+# 8. Min-Max Sum
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'miniMaxSum' function below.
+#
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+def miniMaxSum(arr):
+    minimum, maximum, arr_sum = arr[0], arr[0], arr[0]
+    for i in range(1, len(arr)):
+        arr_sum += arr[i]
+        if arr[i] < minimum:
+            minimum = arr[i]
+        if arr[i] > maximum:
+            maximum = arr[i]
+    
+    print(arr_sum-maximum, arr_sum-minimum)
+            
+
+if __name__ == '__main__':
+
+    arr = list(map(int, input().rstrip().split()))
+
+    miniMaxSum(arr)
+"""
+
+# 9. Birthday Cake Candles
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'birthdayCakeCandles' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER_ARRAY candles as parameter.
+#
+
+def birthdayCakeCandles(candles):
+    tallest = candles[0]
+    heights = {tallest: 1}
+    for i in range(1, len(candles)):
+        if candles[i] > tallest:
+            tallest = candles[i]
+        heights[candles[i]] = heights.get(candles[i], 0) + 1
+    
+    return heights[tallest]
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    candles_count = int(input().strip())
+
+    candles = list(map(int, input().rstrip().split()))
+
+    result = birthdayCakeCandles(candles)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+"""
+
+# 10. Time Conversion
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'timeConversion' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts STRING s as parameter.
+#
+
+def timeConversion(s):
+    if s[-2:] == 'PM':
+        if s[:2] == '12':
+            return s[:-2]
+        return str(int(s[:2])+12) + s[2:-2]
+    if s[-2:] == 'AM':
+        if s[:2] == '12':
+            return '00' + s[2:-2]
+
+    return s[:-2]
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = timeConversion(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
+"""
