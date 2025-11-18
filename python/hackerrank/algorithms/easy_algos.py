@@ -352,6 +352,7 @@ if __name__ == '__main__':
     fptr.close()
 """
 
+# Implementation
 # 11. Grading Students
 """#!/bin/python3
 
@@ -396,4 +397,72 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+"""
+
+# Apple and Orange
+"""#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'countApplesAndOranges' function below.
+#
+# The function accepts following parameters:
+#  1. INTEGER s
+#  2. INTEGER t
+#  3. INTEGER a
+#  4. INTEGER b
+#  5. INTEGER_ARRAY apples
+#  6. INTEGER_ARRAY oranges
+#
+
+def countApplesAndOranges(s, t, a, b, apples, oranges):
+    n = max(len(apples), len(oranges))
+    m = True if len(apples) >= len(oranges) else False
+    ad, od = 0, 0
+    for i in range(n):
+        if m:
+            if i < len(oranges):
+                if s <= oranges[i] + b <= t:
+                    od += 1
+            if s <= apples[i] + a <= t:
+                ad += 1
+        else:
+            if i < len(apples):
+                if s <= apples[i] + a <= t:
+                    ad += 1
+            if s <= oranges[i] + b <= t:
+                od += 1
+    print(ad)
+    print(od)
+            
+
+if __name__ == '__main__':
+    first_multiple_input = input().rstrip().split()
+
+    s = int(first_multiple_input[0])
+
+    t = int(first_multiple_input[1])
+
+    second_multiple_input = input().rstrip().split()
+
+    a = int(second_multiple_input[0])
+
+    b = int(second_multiple_input[1])
+
+    third_multiple_input = input().rstrip().split()
+
+    m = int(third_multiple_input[0])
+
+    n = int(third_multiple_input[1])
+
+    apples = list(map(int, input().rstrip().split()))
+
+    oranges = list(map(int, input().rstrip().split()))
+
+    countApplesAndOranges(s, t, a, b, apples, oranges)
 """
