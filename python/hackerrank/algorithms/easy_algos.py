@@ -12,14 +12,7 @@ res = solveMeFirst(num1,num2)
 print(res)"""
 
 # 2. Simple Array Sum
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'simpleArraySum' function below.
 #
@@ -33,30 +26,10 @@ def simpleArraySum(ar):
         arraySum += e
     
     return arraySum
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    ar_count = int(input().strip())
-
-    ar = list(map(int, input().rstrip().split()))
-
-    result = simpleArraySum(ar)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
 """
 
 # 3. Compare the Triplets
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'compareTriplets' function below.
 #
@@ -75,31 +48,10 @@ def compareTriplets(a, b):
             arr[1] += 1
         
     return arr
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    a = list(map(int, input().rstrip().split()))
-
-    b = list(map(int, input().rstrip().split()))
-
-    result = compareTriplets(a, b)
-
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
-
-    fptr.close()
 """
 
 # 4. A Very Big Sum
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'aVeryBigSum' function below.
 #
@@ -113,30 +65,10 @@ def aVeryBigSum(ar):
         ar_sum += e
         
     return ar_sum
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    ar_count = int(input().strip())
-
-    ar = list(map(int, input().rstrip().split()))
-
-    result = aVeryBigSum(ar)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
 """
 
 # 5. Diagonal Difference
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'diagonalDifference' function below.
 #
@@ -154,33 +86,10 @@ def diagonalDifference(arr):
         rld += arr[len(arr)-r][r-1]
         
     return abs(lrd - rld)
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    n = int(input().strip())
-
-    arr = []
-
-    for _ in range(n):
-        arr.append(list(map(int, input().rstrip().split())))
-
-    result = diagonalDifference(arr)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
 """
 
 # 6. Plus Minus
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'plusMinus' function below.
 #
@@ -202,25 +111,10 @@ def plusMinus(arr):
     print(f"{p/larr:.6f}")
     print(f"{n/larr:.6f}")
     print(f"{z/larr:.6f}")
-    
-    
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
 """
 
 # 7. Staircase
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'staircase' function below.
 #
@@ -232,22 +126,10 @@ def staircase(n):
     for i in range(n-1, -1, -1):
         stairs[i] = '#'
         print(''.join(stairs))
-
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    staircase(n)
 """
 
 # 8. Min-Max Sum
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'miniMaxSum' function below.
 #
@@ -264,24 +146,10 @@ def miniMaxSum(arr):
             maximum = arr[i]
     
     print(arr_sum-maximum, arr_sum-minimum)
-            
-
-if __name__ == '__main__':
-
-    arr = list(map(int, input().rstrip().split()))
-
-    miniMaxSum(arr)
 """
 
 # 9. Birthday Cake Candles
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'birthdayCakeCandles' function below.
 #
@@ -298,30 +166,10 @@ def birthdayCakeCandles(candles):
         heights[candles[i]] = heights.get(candles[i], 0) + 1
     
     return heights[tallest]
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    candles_count = int(input().strip())
-
-    candles = list(map(int, input().rstrip().split()))
-
-    result = birthdayCakeCandles(candles)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
 """
 
 # 10. Time Conversion
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'timeConversion' function below.
 #
@@ -339,29 +187,11 @@ def timeConversion(s):
             return '00' + s[2:-2]
 
     return s[:-2]
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    s = input()
-
-    result = timeConversion(s)
-
-    fptr.write(result + '\n')
-
-    fptr.close()
 """
 
 # Implementation
 # 11. Grading Students
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 #
 # Complete the 'gradingStudents' function below.
 #
@@ -379,35 +209,10 @@ def gradingStudents(grades):
             if tmp - grades[i] < 3:
                 grades[i] = tmp
     return grades
-    
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    grades_count = int(input().strip())
-
-    grades = []
-
-    for _ in range(grades_count):
-        grades_item = int(input().strip())
-        grades.append(grades_item)
-
-    result = gradingStudents(grades)
-
-    fptr.write('\n'.join(map(str, result)))
-    fptr.write('\n')
-
-    fptr.close()
 """
 
-# Apple and Orange
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
+# 12. Apple and Orange
+"""
 #
 # Complete the 'countApplesAndOranges' function below.
 #
@@ -439,30 +244,4 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
                 od += 1
     print(ad)
     print(od)
-            
-
-if __name__ == '__main__':
-    first_multiple_input = input().rstrip().split()
-
-    s = int(first_multiple_input[0])
-
-    t = int(first_multiple_input[1])
-
-    second_multiple_input = input().rstrip().split()
-
-    a = int(second_multiple_input[0])
-
-    b = int(second_multiple_input[1])
-
-    third_multiple_input = input().rstrip().split()
-
-    m = int(third_multiple_input[0])
-
-    n = int(third_multiple_input[1])
-
-    apples = list(map(int, input().rstrip().split()))
-
-    oranges = list(map(int, input().rstrip().split()))
-
-    countApplesAndOranges(s, t, a, b, apples, oranges)
 """
