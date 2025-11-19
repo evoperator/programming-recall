@@ -3,16 +3,7 @@
 
 # Arrays and Basic Problem Solving
 # Count Elements Greater Than Previous Average
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-
-
+"""
 #
 # Complete the 'countResponseTimeRegressions' function below.
 #
@@ -30,32 +21,10 @@ def countResponseTimeRegressions(responseTimes):
         average.append(responseTimes[i])
 
     return count
-
-if __name__ == '__main__':
-    responseTimes_count = int(input().strip())
-
-    responseTimes = []
-
-    for _ in range(responseTimes_count):
-        responseTimes_item = int(input().strip())
-        responseTimes.append(responseTimes_item)
-
-    result = countResponseTimeRegressions(responseTimes)
-
-    print(result)
 """
 
 # Strings and Pattern Matching
-"""#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-
-
+"""
 #
 # Complete the 'isAlphabeticPalindrome' function below.
 #
@@ -70,12 +39,4 @@ def isAlphabeticPalindrome(code):
             string.append(c.lower())
         
     return 1 if ''.join(string) == ''.join(string[::-1]) else 0
-
-if __name__ == '__main__':
-    code = input()
-
-    result = isAlphabeticPalindrome(code)
-
-    print(int(result))
 """
-
