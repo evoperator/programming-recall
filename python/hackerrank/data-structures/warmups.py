@@ -32,3 +32,29 @@ def hourglassSum(arr):
                 max_sum = hourglass
     return max_sum
 """
+
+# 3. Dynamic Array
+"""
+#
+# Complete the 'dynamicArray' function below.
+#
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts following parameters:
+#  1. INTEGER n
+#  2. 2D_INTEGER_ARRAY queries
+#
+
+def dynamicArray(n, queries):
+    ans = []
+    arr = [[] for _ in range(n)]
+    lastAnswer = 0
+    for q in queries:
+        i, x, y = q
+        idx = (x ^ lastAnswer) % n
+        if i == 1:
+            arr[(idx)].append(y)
+        if i == 2:
+            lastAnswer = arr[idx][y % len(arr[idx])]
+            ans.append(lastAnswer)
+    return ans
+"""
