@@ -58,3 +58,22 @@ def dynamicArray(n, queries):
             ans.append(lastAnswer)
     return ans
 """
+
+# 4. Left Rotation
+"""
+#
+# Complete the 'rotateLeft' function below.
+#
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts following parameters:
+#  1. INTEGER d
+#  2. INTEGER_ARRAY arr
+#
+
+def rotateLeft(d, arr):
+    d = d % len(arr)
+    h = arr[:d]
+    del arr[:d]
+    arr.extend(h)
+    return arr
+"""
