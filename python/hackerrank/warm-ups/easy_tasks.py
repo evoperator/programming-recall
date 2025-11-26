@@ -5,7 +5,8 @@
 """print("Hello, World!")"""
 
 # 2. Python If-Else
-"""# !/bin/python3
+"""
+# !/bin/python3
 
 import math
 import os
@@ -22,28 +23,36 @@ if __name__ == '__main__':
         else:
             print("Weird")
     else:
-        print("Weird")"""
+        print("Weird")
+"""
 
 # 3. Arithmetic Operators
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     a = int(input())
     b = int(input())
-    print(a+b, a-b, a*b, sep="\n")"""
+    print(a+b, a-b, a*b, sep="\n")
+"""
 
 # 4. Python: Division
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     a = int(input())
     b = int(input())
-    print(a//b, a/b, sep="\n")"""
+    print(a//b, a/b, sep="\n")
+"""
 
 # 5. Loops
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     n = int(input())
     for i in range(n):
-        print(i*i)"""
+        print(i*i)
+"""
 
 # 6. Write a function # Medium
-"""def is_leap(year):
+"""
+def is_leap(year):
     leap = False
     
     if year % 4 == 0 and year % 100 != 0:
@@ -54,25 +63,31 @@ if __name__ == '__main__':
     return leap
 
 year = int(input())
-print(is_leap(year))"""
+print(is_leap(year))
+"""
 
 # 7. Print Function
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     n = int(input())
     for i in range(n):
-        print(i+1, end="")"""
+        print(i+1, end="")
+"""
 
 # Basic Data Types
 # 8. List Comprehensions
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     x = int(input())
     y = int(input())
     z = int(input())
     n = int(input())
-    print([[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n])"""
+    print([[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n])
+"""
 
 # 9. Find the Runner-Up Score!
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
     arr = list(arr)
@@ -85,10 +100,12 @@ print(is_leap(year))"""
             i += 1
             break
             
-    print(arr[i])"""
+    print(arr[i])
+"""
 
 # 10. Nested Lists
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     students = []
     scores = set()
     for _ in range(int(input())):
@@ -108,10 +125,12 @@ print(is_leap(year))"""
             names.append(student[0])
             
     names.sort()
-    print('\n'.join(names))"""
+    print('\n'.join(names))
+"""
 
 # 11. Finding the percentage
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     n = int(input())
     student_marks = {}
     for _ in range(n):
@@ -120,10 +139,12 @@ print(is_leap(year))"""
         student_marks[name] = scores
     query_name = input()
     
-    print(f"{(sum(student_marks[query_name])/len(student_marks[query_name])):.2f}")"""
+    print(f"{(sum(student_marks[query_name])/len(student_marks[query_name])):.2f}")
+"""
 
 # 12. Lists
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     N = int(input())
     l = []
     for _ in range(N):
@@ -141,14 +162,27 @@ print(is_leap(year))"""
         if n[0] == 'pop':
             l.pop()
         if n[0] == 'reverse':
-            l.reverse()"""
+            l.reverse()
+"""
 
 # 13. Tuples # Python 2 # Weird one
-"""if __name__ == '__main__':
+"""
+if __name__ == '__main__':
     n = int(raw_input())
     integer_list = map(int, raw_input().split())
-    print(hash(tuple(integer_list)))"""
+    print(hash(tuple(integer_list)))
+"""
 
 # Strings
 
-# 14. 
+# 14. sWAP cASE
+"""
+def swap_case(s):
+    for i in range(len(s)):
+        s = list(s)
+        if 'a' <= s[i] <= 'z':
+            s[i] = s[i].upper()
+        elif 'A' <= s[i] <= 'Z':
+            s[i] = s[i].lower()
+    return ''.join(s)
+"""
