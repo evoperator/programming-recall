@@ -186,3 +186,9 @@ def swap_case(s):
             s[i] = s[i].lower()
     return ''.join(s)
 """
+
+# 15. String Split and Join
+"""
+def split_and_join(line):
+    return '-'.join(line.split())
+"""
