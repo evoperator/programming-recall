@@ -3,13 +3,15 @@
 
 # Warmup
 # 1. Solve Me First
-"""def solveMeFirst(a,b):
+"""
+def solveMeFirst(a,b):
 	return a+b
 
 num1 = int(input())
 num2 = int(input())
 res = solveMeFirst(num1,num2)
-print(res)"""
+print(res)
+"""
 
 # 2. Simple Array Sum
 """
@@ -261,4 +263,34 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
 
 def kangaroo(x1, v1, x2, v2):
     return 'YES' if (v1 > v2 and ((x2 - x1) % (v1 - v2)) == 0) or (x1 == x2) else 'NO'
+"""
+
+# 14. Between Two Sets
+"""
+#
+# Complete the 'getTotalX' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER_ARRAY a
+#  2. INTEGER_ARRAY b
+#
+
+def getTotalX(a, b):
+    nums = set()
+    for v in range(a[-1], b[0]+1, a[-1]):
+        print(v)
+        ca, cb = True, True
+        for va in a:
+            if not (v % va == 0):
+                ca = False
+                break
+        for vb in b:
+            if not (vb % v == 0):
+                cb = False
+                break
+        if ca and cb:
+            nums.add(v)
+
+    return len(nums)
 """
