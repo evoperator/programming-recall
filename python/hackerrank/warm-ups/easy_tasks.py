@@ -192,3 +192,36 @@ def swap_case(s):
 def split_and_join(line):
     return '-'.join(line.split())
 """
+
+# 16. What's Your Name?
+"""
+#
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+
+def print_full_name(first, last):
+    print(f'Hello {first} {last}! You just delved into python.')
+"""
+
+# 17. Mutations
+"""
+def mutate_string(text, position, character):
+    text = list(text) 
+    text[position] = character
+    return ''.join(text)
+"""
+
+# 18. Find a string
+"""
+def count_substring(text, sub_string):
+    c = 0
+    for i in range(len(text)-len(sub_string)+1):
+        if sub_string == text[i:len(sub_string)+i]:
+            c += 1
+    return c
+"""
