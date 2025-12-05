@@ -294,3 +294,26 @@ def getTotalX(a, b):
 
     return len(nums)
 """
+
+# 15. Breaking the Records
+"""
+#
+# Complete the 'breakingRecords' function below.
+#
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts INTEGER_ARRAY scores as parameter.
+#
+
+def breakingRecords(scores):
+    record = [0,0]
+    highest = scores[0] 
+    lowest = scores[0]
+    for i in range(1, len(scores)):
+        if scores[i] > highest:
+            record[0] += 1
+            highest = scores[i]
+        if scores[i] < lowest:
+            record[1] += 1
+            lowest = scores[i]
+    return record
+"""
