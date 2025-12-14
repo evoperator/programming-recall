@@ -33,7 +33,20 @@ Check out my Codewars profile:
   <img alt="kata 17" src="https://github.com/user-attachments/assets/1b97f6fe-f9a1-4c87-8dd4-47f5e1b698a9" />
   <img alt="kata 18" src="https://github.com/user-attachments/assets/1e5c55a7-472c-489e-a652-dd0247e11aab" />
   <img alt="kata 19" src="https://github.com/user-attachments/assets/cda47232-4c9f-4d25-8602-8dd693309d8d" />
-
-
-
+  <img alt="kata 20" src="https://github.com/user-attachments/assets/21cb1013-a171-4e9d-9fa1-1d562097009c" />
+  <img alt="kata 21" src="https://github.com/user-attachments/assets/f99165a0-a784-4d46-9786-7b2c4bfbdd2c" />
+  <img alt="kata 22" src="https://github.com/user-attachments/assets/c4aa12c9-96a8-4316-8a25-0d5ee062fc30" />
+  <img alt="kata 23" src="https://github.com/user-attachments/assets/2990a272-8409-4934-ae08-5a857dd3ff13" />
+  <img alt="kata 24" src="https://github.com/user-attachments/assets/47ee7f30-568a-45d0-923b-905131f2d855" />
+  <img alt="kata 25" src="https://github.com/user-attachments/assets/9740cc66-3d06-4270-9fec-cc4e3a83b656" />
+  <img alt="kata 26" src="https://github.com/user-attachments/assets/86b3d90d-f753-42e6-b5f1-6d6432ae252d" />
+  <img alt="kata 27" src="https://github.com/user-attachments/assets/9f808341-ad96-4e0e-85dd-724e1c937bd5" />
+  <img alt="kata 28" src="https://github.com/user-attachments/assets/46c7380d-e37b-4bc9-88e3-ad0d4d622e39" />
+  <img alt="kata 29" src="https://github.com/user-attachments/assets/56cc872e-c010-4e06-9dcb-8980d829ecf1" />
+  <img alt="kata 30" src="https://github.com/user-attachments/assets/0a7f3d76-a39a-4a8d-91fa-85d4394c6c01" />
+  <img alt="kata 31" src="https://github.com/user-attachments/assets/483a1ea1-83ac-47b7-809a-65dcce9c498c" />
+  <img alt="kata 32" src="https://github.com/user-attachments/assets/88ef25d4-c633-4d97-ac0f-4434ecf2592f" />
+  <img alt="kata 33" src="https://github.com/user-attachments/assets/d2aa4131-e86b-4c10-8aa0-6aad967fc4d0" />
+  <img alt="kata 34" src="https://github.com/user-attachments/assets/7886473e-06c5-4261-a3c9-ff4090b5fc14" />
 </div>
+
