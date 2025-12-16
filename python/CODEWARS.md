@@ -21,7 +21,7 @@ Check out my Codewars profile:
 </div>
 
 <!-- rank up to 7 kyu -->
-<img width="520" height="134" alt="image" src="https://github.com/user-attachments/assets/02793458-977d-4b64-8033-af0c2c2a45a6" />
+<img width="520" height="134" alt="7 kyu" src="https://github.com/user-attachments/assets/02793458-977d-4b64-8033-af0c2c2a45a6" />
 
 <div style="display: grid; grid-template-columns: auto auto auto;">
   <img alt="kata 11" src="https://github.com/user-attachments/assets/e70078a4-272e-404c-a5eb-9f36aa49e461" />
@@ -49,6 +49,16 @@ Check out my Codewars profile:
   <img alt="kata 33" src="https://github.com/user-attachments/assets/d2aa4131-e86b-4c10-8aa0-6aad967fc4d0" />
   <img alt="kata 34" src="https://github.com/user-attachments/assets/7886473e-06c5-4261-a3c9-ff4090b5fc14" />
   <img alt="kata 35" src="https://github.com/user-attachments/assets/33447497-0e66-44d2-84b4-54d78b81eae6" />
+  <img alt="kata 36" src="https://github.com/user-attachments/assets/3da9d6a8-a8d6-4ccc-983d-4d672deac138" />
+  <img alt="kata 37" src="https://github.com/user-attachments/assets/19a748b6-bccc-4136-9b84-ca505973bfa5" />
+  <img alt="kata 38" src="https://github.com/user-attachments/assets/83bb5e27-2559-49b0-b4b5-65044c1dacae" />
 </div>
 
+<!-- rank up to 6 kyu -->
+<img width="562" height="134" alt="6 kyu" src="https://github.com/user-attachments/assets/29eee314-5f78-46ac-b0ba-4ceedba6d1fd" />
+<img width="309" height="134" alt="image" src="https://github.com/user-attachments/assets/cc2376bd-d733-40b8-8a68-cfa9bb573ade" />
+
+<div style="display: grid; grid-template-columns: auto auto auto;">
+  
+</div>
 
