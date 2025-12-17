@@ -59,6 +59,7 @@ Check out my Codewars profile:
 <img width="309" height="134" alt="image" src="https://github.com/user-attachments/assets/cc2376bd-d733-40b8-8a68-cfa9bb573ade" />
 
 <div style="display: grid; grid-template-columns: auto auto auto;">
-  
+  <img alt="kata 39" src="https://github.com/user-attachments/assets/29566777-0dfe-4c49-ba6c-70e1d957cc41" />
 </div>
+
 
