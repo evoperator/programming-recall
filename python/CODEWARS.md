@@ -60,6 +60,12 @@ Check out my Codewars profile:
 
 <div style="display: grid; grid-template-columns: auto auto auto;">
   <img alt="kata 39" src="https://github.com/user-attachments/assets/29566777-0dfe-4c49-ba6c-70e1d957cc41" />
+  <img alt="kata 40" src="https://github.com/user-attachments/assets/4cbbd116-955c-49ed-8fb0-df8ebd75614a" />
+  <img alt="kata 41" src="https://github.com/user-attachments/assets/81ea0add-e44f-4520-bba4-d651a20dc7b1" />
+  <img alt="kata 42" src="https://github.com/user-attachments/assets/d0683e9a-8e78-46ac-8eb4-e67640a40d12" />
+  <img alt="kata 43" src="https://github.com/user-attachments/assets/b59b79b9-6ca1-4fd6-9b5d-3d054fd7371d" />
+
 </div>
+
 
 
