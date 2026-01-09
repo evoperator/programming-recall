@@ -77,7 +77,11 @@ Check out my Codewars profile:
   <img alt="kata 54" src="https://github.com/user-attachments/assets/432b6531-b8b9-40aa-be46-6f41389d5bb8" />
   <img alt="kata 55" src="https://github.com/user-attachments/assets/30d19562-a545-457d-bf72-341f8585e9ad" />
   <img alt="kata 56" src="https://github.com/user-attachments/assets/37bfedbb-02ae-431f-8029-b560598e5d49" />
+  <img alt="kata 57" src="https://github.com/user-attachments/assets/d4319842-c749-43c2-9d54-2e55d444cb9d" />
+  <img alt="kata 58" src="https://github.com/user-attachments/assets/610d070f-3b4c-44fc-b0df-20785b35a141" />
+  <img alt="kata 59" src="https://github.com/user-attachments/assets/3be8c62e-702d-4f14-853b-4703120c4b12" />
 </div>
+
 
 
 
