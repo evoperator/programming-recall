@@ -80,7 +80,11 @@ Check out my Codewars profile:
   <img alt="kata 57" src="https://github.com/user-attachments/assets/d4319842-c749-43c2-9d54-2e55d444cb9d" />
   <img alt="kata 58" src="https://github.com/user-attachments/assets/610d070f-3b4c-44fc-b0df-20785b35a141" />
   <img alt="kata 59" src="https://github.com/user-attachments/assets/3be8c62e-702d-4f14-853b-4703120c4b12" />
+  <img alt="kata 60" src="https://github.com/user-attachments/assets/58329ba3-e895-4303-a4ab-40f077a76631" />
+  <img alt="kata 61" src="https://github.com/user-attachments/assets/81808d31-f342-415d-9c04-de92661143bb" />
+  <img alt="kata 62" src="https://github.com/user-attachments/assets/5186bd36-3339-42db-8b1e-e5f5df2b9790" />
 </div>
+
 
 
 
